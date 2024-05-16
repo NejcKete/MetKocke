@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: myFirstFont;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/Rooom.jpg');
+}
+td{
+    padding-left: 12%;
+}
+label{
+    margin-left: 2%;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/PoetsenOne-Regular.ttf");
+}
+
+
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    margin-top: 275px;
+}
+
+.center {
+    width: 1000px;
+    height: 550px;
+    background-color: #101010;
+}
+
+#center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 900px;
+    height: 300px;
+    background-color: #b19c9c;
+    border: 5px solid #474747;
+    margin-top: 20%;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    margin-top: -20%;
+    color: #000000;
+}
+
+.dicetable {
+    height: 75px;
+    width: 100%;
+    margin-left: -6%;
+}
+
+#igralci {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+label {
+    color: #29271c;
+}
+#player{
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+#winner {
+    width: 100%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+.igralci {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    color: #29271c;
+}
+
+.login {
+
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#dices {
+    margin-top: 25px;
+    font-size: 35px;
+
+}
+
+.izb {
+    text-align: center;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.igram {
+    height: 300px !important;
+}
+
+#form {
+    width: 100%;
+    height: 100%;
+}
+
+.down {
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+    border-radius: 7px;
+    color: #29271c;
+}
+
+.down a {
+    color: #b1b1b1;
+}
+
+#down {
+    color: #29271c !important;
+}
+
+#igralci {
+    color: #29271c !important;
+}
+
+.dice {
+    border: 3px solid black;
+    margin: 0 1px;
+    border-radius: 5px;
+}
+
+input,
+select {
+    width: 170px;
+    height: 30px;
+    font-size: 25px;
+    color: #000000;
+    outline: none;
+}
+
+.selection {
+    width: 50%;
+}
+
+.startB {
+    width: 100px;
+    height: 45px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #ffffff6e;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 2%;
+    box-sizing: border-box;
+    color: #ff0000;
+    cursor: pointer;
+    display: inline-flex;
+
+
+}
+
+.startB:hover,
+.startB:focus {
+    background-color: #43c058;
+    color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.startB:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+.button {
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
